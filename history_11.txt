@@ -1,0 +1,74 @@
+   0 pwd
+   1 cd
+   2 cd ..
+   3 ls
+   4 history
+   5 ls --
+   6 ls -l
+   7 cd home
+   8 pwd
+   9 ls -a
+  10 mkdir user1
+  11 ls
+  12 cd user1/
+  13 mkdir task1
+  14 ls
+  15 cd task1
+  16 touch filel.txt
+  17 ls
+  18 cd ..
+  19 cd
+  20 cd user1
+  21 pwd
+  22 ls
+  23 cd ..
+  24 ls
+  25 cd home
+  26 cd user1/
+  27 cd task1/
+  28 cd ..
+  29 ls
+  30 tree
+  31 cd /
+  32 tree
+  33 clear
+  34 history
+  35 cd home/
+  36 mkdir user2
+  37 ls
+  38 cd user2
+  39 mkdir task2
+  40 ls
+  41 cd task2/
+  42 touch file2.txt
+  43 cd /home
+  44 cd /opt
+  45 mkdir /home/user3/task3
+  46 mkdir -p /home/user3/task3
+  47 tree
+  48 tree /home
+  49 clear
+  50 touch /home/user3/task3/file3.txt
+  51 tree
+  52 tree /hoe
+  53 tree /home
+  54 mkdir -p /home/user4/task4 && touch /home/user4/task4/file4.txt
+  55 ls
+  56 clear
+  57 cd
+  58 cd ..
+  59 tree /home
+  60 cp /home/user1/task1/filel.txt /opts/newfilel.txt
+  61 cp /home/user1/task1/filel.txt /opt/newfilel.txt
+  62 tree /opt
+  63 cp /home/user1 /opt/newuser1
+  64 cp --help
+  65 tree /home
+  66 mv /home/user2 /opt
+  67 tree /home
+  68 tree /opt
+  69 clear
+  70 cd
+  71 cd /
+  72 history
+  73 history > history_11.txt
