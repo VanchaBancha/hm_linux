@@ -1,0 +1,14 @@
+   0 touch newfile.txt
+   1 date > newfile.txt
+   2 mkdir -p /tmp/hw3/newfile/Ivan
+   3 echo "Homework3" >> newfile.txt
+   4 df -h / | tail -2 >> newfile.txt
+   5 cat newfile.txt
+   6 history | tail -5 >> newfile.txt
+   7 lscpu | grep 'Vendor' >> newfile.txt
+   8 cat newfile.txt
+   9 cp -r newfile.txt /tmp/hw3/newfile/Ivan/newfile.txt
+  10 tree /tmp
+  11 cat newfile.txt
+  12 history
+  13 history > history_homework3.txt
